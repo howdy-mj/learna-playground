@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "lerna clean",
     "release": "standard-version",
-    "version": "lerna version --no-push && standard-version",
+    "version": "lerna version --no-push",
     "publish": "lerna publish"
   },
   "devDependencies": {
