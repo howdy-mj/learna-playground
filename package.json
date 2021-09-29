@@ -6,13 +6,19 @@
   ],
   "scripts": {
     "install:react-playground": "yarn workspace react-playground install",
+    "build:react-playground": "yarn workspace react-playground build",
     "start:react-playground": "yarn workspace react-playground start",
     "install:next-playground": "yarn workspace next-playground install",
+    "build:next-playground": "yarn workspace next-playground build",
     "start:next-playground": "yarn workspace next-playground dev",
     "clean": "lerna clean",
     "release": "standard-version",
     "version": "lerna version --no-push",
     "publish": "lerna publish"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
@@ -24,7 +30,11 @@
     "lerna": "^4.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
-    "standard-version": "^9.3.1"
+    "standard-version": "^9.3.1",
+    "typescript": "^4.1.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/node": "^12.0.0"
   },
   "husky": {
     "hooks": {
