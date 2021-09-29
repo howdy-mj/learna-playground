@@ -17,7 +17,7 @@
       ],
       "conventionalCommits": true,
       "changelogPreset": {
-        "name": "conventionalcommits",
+        "name": "conventional-changelog-conventionalcommits",
         "types": [
           {
             "type": "feat",
@@ -37,7 +37,7 @@
           {
             "type": "style",
             "section": ":sparkles: Styling",
-            "hidden": false
+            "hidden": true
           },
           {
             "type": "refactor",
