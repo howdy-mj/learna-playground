@@ -13,7 +13,7 @@
     "start:next-playground": "yarn workspace next-playground dev",
     "clean": "lerna clean",
     "version": "lerna version --conventional-commits --no-push",
-    "publish": "lerna publish"
+    "release": "lerna publish"
   },
   "dependencies": {
     "react": "^17.0.2",
